@@ -1,0 +1,650 @@
+/*
+Nombre Completo: Juan Sebastian Amezquita
+Clan: Tesla 
+fecha: 08/04/2024*/
+/*Aqui se reinicia la pagina*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Aqui inicia el diseño de la pagina*/
+
+/*Header*/
+header{
+    width: 100%;
+    height: 120vh;
+}
+.divheader{
+    position: relative;
+    width: 100%;
+    height: 120vh;
+}
+#hederfondo{
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
+}
+.oscuridad{
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.559);
+}
+
+/*Menu del header*/
+.nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+}
+.logo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 60%;
+    height: 60%;
+}
+.menu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+}
+.login{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 40%;
+    background-color: #4845D2;
+    border-radius: 10px;
+}
+.loginin img{
+    width: 100%;
+    height: 100%;
+}
+.loginin p{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+/*Aqui comienza el Titulo*/
+
+.titulo{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo1{
+    color: #f4f4f4;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+}
+hr{
+    width: 60%;
+    height: 1px;
+    background-color: #f4f4f4;
+}
+#morado{
+    color: #4845D2;
+}
+
+.titulo2{
+    color: #f4f4f4;
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+    margin-top: 2%;
+    font-family: "Roboto", sans-serif;
+}
+
+.titulo3{
+    border: 1px solid #f4f4f4;
+    border-radius: 15px;
+    padding: 23px;
+    margin-top: 2%;
+}
+.titulo3 a{
+    text-decoration: none;
+    color: #f4f4f4;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+/*Aqui comienza el Main*/
+.main{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    bottom: -22%;
+
+}
+
+.main1{
+    width: 25%;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    border-radius: 20px;
+}
+.main1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#fondonegro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.364);
+    border-radius: 20px;
+}
+.til{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main1 h2{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f4f4f4;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+/*Aqui comienza la seccion 1*/
+
+
+.aboutus{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+}
+.imagenabout{
+    width: 45%;
+    height: 90%;
+}
+.imagenabout img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.textoabout{
+    width: 55%;
+    height: 90%;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+/*about1*/
+.about1{
+    width: 100%;
+    height: 20%;
+    color: #4845D2;
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+}
+.about1 p{
+    margin-left: 5%;
+}
+/*about2*/
+.about2{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    justify-content: center;
+}
+.about2 p{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.about2 ul{
+    margin-left: 55px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+/*about3*/
+.about3{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.boton1{
+    width: 50%;
+    height: 50%;
+    background-color: #4845D2;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.boton1 img{
+    width: 20%;
+    height: 100%;
+}
+
+.boton1 a{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+}
+
+/*Aqui comienza Gallery*/
+
+.gallery{
+    width: 100%;
+    height: 100vh;
+}
+
+.gallerytitulo{
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+}
+
+.gallery1{
+    width: 80%;
+    margin: auto;
+    height: 90%;
+    display: flex;
+}
+.gallery11{
+    width: 25%;
+    height: 100%;
+}
+
+#gallery-1{
+    width: 95%;
+    height: 95%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.gallery12{
+    width: 100%;
+    height: 60%;
+}
+.gallery12 img{
+    width: 95%;
+    height: 95%;
+    border-radius: 10px;
+}
+.gallery13{
+    width: 200%;
+    height: 40%;
+}
+.gallery13 img{
+    width: 98%;
+    height: 87%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#gallery-5{
+    width: 95%;
+    height: 25%;
+    margin-top: 75%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.gallery14{
+    margin-left: -100%;
+    width: 200%;
+    height: 33%;
+}
+.gallery14 img{
+    width: 95%;
+    height: 90%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.gallery15{
+    width: 100%;
+    height: 67%;
+}
+.gallery15 img{
+    width: 90%;
+    height: 92%;
+    border-radius: 10px;
+}
+
+/*aqui comienza Contests*/
+
+.contests{
+    width: 90%;
+    margin: auto;
+    height: 150vh;
+    margin-top: 30px;
+}
+.continicial{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.contests h1{
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 30px;
+}
+
+.cont1{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cont11{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.cont12{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.contenedor{
+    width: 100%;
+    height: 90%;
+    margin-right: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imagencont{
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+.imagencont img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+.contenedor h3{
+    width: 90%;
+    margin: auto;
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.contenedor p{
+    width: 90%;
+    margin: auto;
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.a{
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    border: 1px solid #4845D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.contenedor a{
+    text-decoration: none;
+    color: #4845D2;
+    font-family: "Roboto", sans-serif;
+}
+
+.cont2{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont2 h3{
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 30px;
+}
+.cont2 hr{
+    margin-bottom: 10px;
+    width: 40%;
+    background-color: black;
+}
+
+.contenedor1{
+    width: 100%;
+    height: 40%;
+    margin-right: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedor1 a{
+    text-decoration: none;
+    color: #4845D2;
+    font-family: "Roboto", sans-serif;
+}
+.contenedor1 p{
+    width: 90%;
+    margin: auto;
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.contenedor11{
+    width: 100%;
+    height: 35%;
+    margin-right: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 13%;
+}
+.contenedor11 a{
+    text-decoration: none;
+    color: #4845D2;
+    font-family: "Roboto", sans-serif;
+}
+.contenedor11 p{
+    width: 90%;
+    margin: auto;
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Aqui va el Footer*/
+
+footer{
+    background-color: #6361e8c9;
+    width: 100%;
+    height: 40vh;
+}
+/*aqui comienza el Footer donde de la parte de arriba*/
+.footer1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    color: white;
+}
+
+.logofin{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.logofin img{
+    width: 30%;
+    height: 100%;
+}
+.logofin span{
+    width: 70%;
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.footer11{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+#loremfoo{
+    width: 100%;
+    height: 80%;
+}
+
+#loremfoo p{
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+.linkshome{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.linkshome a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.linkshome1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 10%;
+}
+
+.linkshome1 a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 25px;
+}
+/*aqui comienza el Footer donde esta los derechos de autor*/
+.footer2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer2 p{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.material-symbols-outlined {
+    color: white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
